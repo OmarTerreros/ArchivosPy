@@ -11,7 +11,7 @@ try:
         print("La suma es menor que 10.")
     elif resultado > 10:
         print("La suma es mayor que 10.")
-    else:
-        print("La suma es exactamente 10.")
+#    else:
+ #       print("La suma es exactamente 10.")
 except ValueError:
     print("Por favor, ingresa solo números enteros.")
