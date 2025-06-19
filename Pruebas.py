@@ -17,3 +17,8 @@ def multiplicar(valor_numerico,valor_numerico2):
     multiplica= valor_numerico * valor_numerico2
     return multiplica
 print(multiplicar(valor_numerico,valor_numerico2))
+
+def residuo(valor_numerico,valor_numerico2):
+    resto= valor_numerico // valor_numerico2
+    return resto
+print(residuo(valor_numerico,valor_numerico2))
